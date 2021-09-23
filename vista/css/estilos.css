@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+h1{
+	color: blanchedalmond;
+	font-size:  40px;
+}
+td, th{
+	font-size: 30px;
+}
+th{
+	padding: 10px;
+}
+button {
+	margin: 0.5rem;
+	border-radius: 0.8rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+  }
+  
+  .row-1 {
+	padding: 0rem .5rem;
+	border: 1px solid;
+  }
+  
+	
+nav{
+	position:relative;
+	margin:auto;
+	width:75%;
+	height:auto;
+	background: rgb(83, 31, 31);
+}
+
+nav ul{
+	position:relative;
+	margin:auto;
+	width:50%;
+	text-align: center;
+}
+
+nav ul li{
+	display:inline-block;
+	width:24%;
+	line-height: 50px;
+	list-style: none;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+nav ul li a:hover{
+	color:black;
+}
+
+section{
+	position: relative;
+	margin: auto;
+	width:400px;
+}
+
+section h1{
+	position: relative;
+	margin: auto;
+	padding:10px;
+	text-align: center;
+}
+
+section form{
+	position:relative;
+	margin:auto;
+	width:400px;
+}
+
+section form input{
+	display:inline-block;
+	padding:10px;
+	width:95%;
+	margin:5px;
+}
+
+section form input[type="submit"]{
+	position:relative;
+	margin:20px auto;
+	left:4.5%;
+
+}
+
+table{
+	position:relative;
+	margin:auto;
+	width:100%;
+}
+
+table#t1{
+	left:-25%;
+}
+
+
+table thead tr th{
+	/*padding:10px;*/
+}
+tbody tr:nth-child(even){
+	background-color: #e9ecef;
+  }
+  tbody tr:nth-child(odd){
+	background-color: #f8f9fa;
+  }
+  th {
+	background-color: #087f5b;
+	color: #fff;
+	width: 25%;
+  }
+table tbody tr td{
+	padding:10px;
+}
