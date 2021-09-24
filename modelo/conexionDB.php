@@ -4,8 +4,8 @@ class conexionDB{
     static public function cDB(){
       
         $servername = "localhost";
-        $username = "root";
-        $password = "3w.gmail.com";
+        $username = "ts1";
+        $password = "user_ts1";
 
         try {
           $conn = new PDO("mysql:host=$servername;dbname=crud", $username, $password);
@@ -20,6 +20,5 @@ class conexionDB{
         return $conn;
     }
 }
-
 
 
